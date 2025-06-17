@@ -30,11 +30,7 @@ Pathfinder was born out of this universal stuckness. With AI, we turn vague feel
 
 ---
 
-## 📸 Preview
 
-![Pathfinder AI Personality Summary and Career Suggestions](./public/og.png)
-
----
 
 ## 🛠️ Tech Stack
 
@@ -51,7 +47,7 @@ Pathfinder was born out of this universal stuckness. With AI, we turn vague feel
 ## 🧪 Local Setup
 
 ```bash
-git clone https://github.com/yourusername/pathfinder.git
+git clone https://github.com/MurluKrishna4352/pathfinder.git
 cd pathfinder
 npm install
 ```
@@ -95,7 +91,7 @@ Pathfinder isn’t just a tool — it’s a quiet revolution against confusion a
 
 ## 📣 Contributing
 
-Coming soon — feel free to fork and star meanwhile ✨
+We welcome contributions! Feel free to fork the repo, create a branch, and submit a pull request. Whether it's fixing bugs, improving UI, or adding new features — your input is valued. ✨
 
 ---
 
