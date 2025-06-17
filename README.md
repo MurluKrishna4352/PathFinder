@@ -1,36 +1,112 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧭 Pathfinder
 
-## Getting Started
+Pathfinder is your AI-powered career companion. It helps people who feel **stuck**, **confused**, or simply curious — reflect deeply, discover their personality strengths, and receive **unique career niche suggestions**.
 
-First, run the development server:
+Whether you're a student, professional, or explorer of your next chapter, Pathfinder guides you from introspection to inspiration — one thoughtful reflection at a time.
+
+---
+
+## ✨ Features
+
+- 🧠 **AI Personality Analysis** – Understand your core strengths and tendencies based on your reflections
+- 🎯 **Niche Career Suggestions** – Get 3 creative and tailored career paths across diverse domains (not just tech!)
+- 🧵 **Follow-Up Questions** – AI-generated prompts to go even deeper into self-discovery
+- 💾 **Supabase Integration** – Save and retrieve your insights securely
+- 🎨 **Clean UI** – Minimal, modern, distraction-free experience
+- ⚙️ **Ollama (Llama3)** for local LLM inference (Gemini optional for production)
+- 🚀 Built with **Next.js 15**, **Tailwind CSS**, **TypeScript**, and **Supabase**
+
+---
+
+## 🔍 Why Pathfinder?
+
+> "I have so many interests but don’t know where to start."
+>
+> "I feel lost and don’t know what career direction fits me."
+>
+> "I want something that brings me both joy and meaning."
+
+Pathfinder was born out of this universal stuckness. With AI, we turn vague feelings into clear insights, fast.
+
+---
+
+## 📸 Preview
+
+![Pathfinder AI Personality Summary and Career Suggestions](./public/og.png)
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer        | Tech                              |
+|--------------|-----------------------------------|
+| Framework    | [Next.js 15](https://nextjs.org)  |
+| Styling      | [Tailwind CSS](https://tailwindcss.com) |
+| AI Model     | [LLaMA 3](https://ollama.com/library/llama3) via [Ollama](https://ollama.com) locally, or [Gemini Pro](https://makersuite.google.com/app) for cloud |
+| DB & Auth    | [Supabase](https://supabase.com)  |
+| Deployment   | [Vercel](https://vercel.com)      |
+
+---
+
+## 🧪 Local Setup
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/yourusername/pathfinder.git
+cd pathfinder
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 📦 Environment Variables
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Create `.env.local` file:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```env
+SUPABASE_URL=your_supabase_url
+SUPABASE_ANON_KEY=your_supabase_key
+GEMINI_API_KEY=your_google_gemini_key (optional)
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+### 🧠 Run Ollama locally (optional)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+ollama run llama3
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🔐 Coming Soon
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 📜 Google login + reflection history
+- 📤 PDF export of insights
+- 🧭 Clickable learning paths
+- 📊 Analytics dashboard
+- 🌍 Public shareable reports
+- ✨ Beautiful landing page and story
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 💡 Built With Purpose
+
+Pathfinder isn’t just a tool — it’s a quiet revolution against confusion and stagnation. It helps you reconnect with yourself and confidently explore meaningful directions.
+
+---
+
+## 📣 Contributing
+
+Coming soon — feel free to fork and star meanwhile ✨
+
+---
+
+## 🧑‍💻 Created By
+
+**Krishna Nagpal**  
+A builder exploring purpose-driven technology.  
+[LinkedIn](https://www.linkedin.com/in/krishnanagpal/) • [GitHub](https://github.com/MurulKrishna4352)
+
+---
+
+## 🌟 License
+
+[MIT](LICENSE)
